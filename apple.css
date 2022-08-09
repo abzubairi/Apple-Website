@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;                             
+}
+
+body{
+ margin: 0px;
+}
+
+.nav{
+    background-color: #333333;
+    margin-left: 15em;
+    display: flex;
+}
+header{
+    background-color: #333333;
+}
+    .nav img{
+        height: 44px;
+        opacity: .8;
+
+    }
+    .nav a {
+       
+        font-size: 12px;
+        line-height: 3.66667;
+        font-weight: 400;
+        letter-spacing: -.01em;
+        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: #f5f5f7;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        padding: 0 28px;
+        height: 44px;
+        opacity: .8;
+        background: no-repeat;
+        text-decoration: none;
+      }
+      .main-image{
+        background-image: url("../Apple Folder/images/hero_endframe__fveve3v41uaa_large_2x.jpg") ;
+     
+        position: absolute;
+ 
+    left: 0;
+    width: 100%;
+    height: 700px;
+      }
+
+      .main-image img{
+        margin: 5em 20em 0em 32em;
+    width: 361px;
+    height: 234px;
+      }
+      
+      .sec-main-image{
+        background-image: url("../Apple Folder/images/hero_macbookair__el7scava26mq_large_2x.png") ;
+        position: absolute;
+        top: 650px;
+        width: 100%;
+        height: 650px;
+        background-size: cover;
+        background-position: center;
+        background-attachment: initial;
+      }
+    .w3-button{
+
+        border-radius: 980px;
+        background: #fff;
+        color: #1d1d1f;
+        font-size: 17px;
+        line-height: 1.4705882353;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+        font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        min-width: 30px;
+        padding: 10px 20px;
+        margin: 1em 0em 0em 36em;
+        border: none;
+    }
+.sec-main-image h2{
+  margin-left: 6.5em;
+    font-size: 50px;
+    margin-top: 4.5em;
+    font-family: sans-serif;
+    color: #1D1D1F;
+}
+.sec-main-image p{
+  margin-left: 16em;
+  margin-top: -1.5em;
+  font-size: 22px;
+  font-family: sans-serif;
+  color: #1D1D1F;
+}
+.sec-main-image .a1 a{
+  margin-left: 20em;
+  margin-top: 1em;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  text-decoration: none;
+}
+
+.sec-main-image .a1 a1{
+  margin-left: 2em;
+  margin-top: 5em;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  text-decoration: none;
+}
+.third-main-image{
+  background-image: url("../Apple Folder/images/hero_iphone13_avail__gnqqkzuai6um_large_2x.jpg");
+  position: absolute;
+  top: 1246px;
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: initial;
+}
+
+.third-main-image h2{
+  margin-left: 12.5em;
+    font-size: 48px;
+    margin-top: 2.5em;
+    font-family: sans-serif;
+    color: #1D1D1F;
+}
+.third-main-image p{
+  margin-left: 27em;
+  margin-top: -1.5em;
+  font-size: 22px;
+  font-family: sans-serif;
+  color: #1D1D1F;
+}
+.third-main-image .a1 a{
+  margin-left: 34em;
+  margin-top: 1em;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  text-decoration: none;
+}
+
+.third-main-image .a1 a1{
+  margin-left: 2em;
+  margin-top: 5em;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  text-decoration: none;
+}
+
+.footer-nav{
+  top: 1246px;
+  display: flex;
+  margin-top: 416px;
+  border-top: 1px solid #00000082;
+  margin-left: 50px;
+  margin-right: 50px;
+  opacity: .8;
+  gap: 135px;
+  padding-top: 52px;
+  margin-bottom: 46px;
+  justify-content: center;
+  border-bottom: 1px solid #00000082;
+  padding-bottom: 34px;
+  background-color: #F5F5F7;
+}
+
+.inside-elements{
+  display: none;
+}
+
+.shopie{
+  font-size: 12px;
+  padding-top: 1em;
+  white-space: nowrap;
+  margin-left: 39px;
+  font-family: sans-serif;
+}
+.column-section-item{
+  list-style: none;
+  text-decoration: none;
+  --footer-background: #f5f5f7;
+    --footer-border-color: #d2d2d7;
+    --footer-text-color: #6e6e73;
+    --footer-link-color: #424245;
+    --footer-directory-title-color: #1d1d1f;
+    --footer-directory-title-color-hover: #000;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
