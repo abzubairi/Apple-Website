@@ -154,11 +154,104 @@ header{
   letter-spacing: inherit;
   text-decoration: none;
 }
+.Fourth-main{
+  display: flex;
+  
+}
+.fourth-main-image h2{
+  margin-left: 9.5em;
+  font-size: 30px;
+  margin-top: 2.5em;
+  font-family: sans-serif;
+  color: #1D1D1F;
+}
+.fourth-main-image p{
+  margin-left: 18em;
+    margin-top: -0.5em;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #1D1D1F;
+}
+.fourth-main-image .a1 a{
+  margin-left: 22em;
+  margin-top: 1em;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  text-decoration: none;
+}
+
+.fourth-main-image .a1 a1{
+  margin-left: 2em;
+  margin-top: 5em;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  text-decoration: none;
+}
+.fourth-main-image{
+  background-image: url("../Apple Folder/images/promo_iphone13pro_avail__beadms4ldidu_large_2x.jpg");
+  position: absolute;
+  top: 666px;
+ width: 50%;
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: initial;
+}
+.fourth1-main-image{
+  background-image: url("../Apple Folder/images/promo_mbp13__buwssod6c8vm_large_2x.jpg");
+  position: absolute;
+  position: absolute;
+  top: 4px;
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: initial;
+  margin-left: 45em;
+}
+.fourth1-main-image h2{
+  margin-left: 9.5em;
+  font-size: 30px;  
+  margin-top: 2.5em;
+  font-family: sans-serif;
+  color:#fff;
+}
+.fourth1-main-image p{
+  margin-left: 18em;
+    margin-top: -0.5em;
+    font-size: 18px;
+    font-family: sans-serif;
+    color:#fff;
+}
+.fourth1-main-image .a1 a{
+  margin-left: 22em;
+  margin-top: 1em;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  text-decoration: none;
+}
+
+.fourth1-main-image .a1 a1{
+  margin-left: 2em;
+  margin-top: 5em;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #06c;
+  letter-spacing: inherit;
+  text-decoration: none;
+}
+
 
 .footer-nav{
-  top: 1246px;
+  top: 1208px;
   display: flex;
-  margin-top: 416px;
+  margin-top: 492px;
   border-top: 1px solid #00000082;
   margin-left: 50px;
   margin-right: 50px;
@@ -166,7 +259,7 @@ header{
   gap: 135px;
   padding-top: 52px;
   margin-bottom: 46px;
-  justify-content: center;
+  justify-content: space-between;
   border-bottom: 1px solid #00000082;
   padding-bottom: 34px;
   background-color: #F5F5F7;
